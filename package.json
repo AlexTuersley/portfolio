@@ -1,25 +1,15 @@
 {
-  "name": "tailwind-css-portfolio",
-  "version": "1.0.0",
-  "description": "This is an example reponsive one page portfolio website built using Tailwind CSS. Feel free to modify and learn from it.",
-  "main": "index.js",
+  "name": "portfolio",
+  "version": "0.0.0",
   "scripts": {
-    "build": "tailwindcss build ./src/styles.css -o ./public/styles.css",
-    "prod": "NODE_ENV=production tailwindcss build ./src/styles.css -o ./public/styles.css"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "vite": "^2.7.2"
+  },
   "dependencies": {
-    "live-server": "^1.2.1",
-    "tailwindcss": "^2.0.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ThirusOfficial/tailwind-css-starter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ThirusOfficial/tailwind-css-starter/issues"
-  },
-  "homepage": "https://github.com/ThirusOfficial/tailwind-css-starter#readme"
+    "three": "^0.136.0"
+  }
 }
